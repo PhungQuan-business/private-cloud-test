@@ -6,6 +6,7 @@ services:
     container_name: model-trainer
     environment:
       - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI}
+      - MLFLOW_EXPERIMENT_NAME=my-new-experiment
     volumes:
       - ./mlruns:/app/mlruns
 
