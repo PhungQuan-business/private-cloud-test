@@ -1,0 +1,41 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+*.bak
+
+# Environment files
+.env
+*.env
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+
+# Unit test coverage reports
+htmlcov/
+.coverage
+.tox/
+.noseids
+.pytest_cache/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.iml
+
+# Git
+.git
+.gitignore
