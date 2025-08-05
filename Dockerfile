@@ -19,5 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the training script
 COPY main.py .
 
+COPY . .
+
 # Default command
 CMD ["python", "main.py"]

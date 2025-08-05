@@ -4,9 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: model-trainer
-    environment:
-      - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI}
-      - MLFLOW_EXPERIMENT_NAME=my-new-experiment
+    env_file:
+      - .env            # Load variables from .env
     volumes:
       - ./mlruns:/app/mlruns
 
